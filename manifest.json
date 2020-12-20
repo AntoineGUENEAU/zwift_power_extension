@@ -1,0 +1,17 @@
+{
+  "manifest_version" : 2,
+  "name" : "Extension Zwift Power",
+  "version" : "0.0.1",
+  "content_scripts" : [
+    {
+      "matches" : [
+	"https://www.zwiftpower.com/",
+	"https://www.zwiftpower.com/events",
+	],
+      "js": [
+        "jquery.min.js",
+        "content.js"
+      ]
+    }
+  ]
+}
